@@ -42,7 +42,7 @@ A bit of what's happening inside the ThreadClass:
 ```python
 
 for row in win.tasks:
-                if row['hour'] == current_time and row['check'] == False:
+                if row['hour'] == current_time and not row['check']:
                     row['check'] = True
                     notification.notify(
                                         title=f"{row['title']}",
