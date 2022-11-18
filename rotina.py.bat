@@ -1,0 +1,1 @@
+start /MIN pythonw main.pyw
