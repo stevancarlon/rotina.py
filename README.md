@@ -1,5 +1,4 @@
 # rotina.py
-#### Video Demo:  https://www.youtube.com/watch?v=t9wl4OSXVKE
 #### Description: This was my final project for the **Harvard University's CS50 Course: Introduction to Computer Science**.
 #
 >This application developed using PyQt5 modules is a routine scheduler. The user will add tasks with a specified hour and the application will pop desktop notifications and a voice alarm. The user can also save routines as well as load past routines. If minimized, the app will hide to the Windows task tray while still notifying the user's tasks.
